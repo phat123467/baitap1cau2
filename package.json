@@ -1,0 +1,20 @@
+{
+  "name": "erc20-ronin-balance-checker",
+  "version": "1.0.0",
+  "description": "Kiểm tra số dư Token ERC20 trên mạng Ronin Saigon bằng TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["erc20", "ronin", "typescript", "ethers"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.8.1",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+} 
